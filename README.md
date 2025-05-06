@@ -1,12 +1,69 @@
-# React + Vite
+# 🎬 Lista de Filmes - Teste Técnico Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web criada como parte de um teste técnico para vaga de Desenvolvedor Frontend Júnior. O objetivo é listar, filtrar, buscar e adicionar filmes por categorias.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✅ Funcionalidades
 
-## Expanding the ESLint configuration
+- Exibir lista de filmes por categoria
+- Filtrar filmes ao clicar em uma categoria lateral
+- Buscar filmes pelo título
+- Adicionar novos filmes dinamicamente
+- Resetar a lista para o estado inicial
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/) (ou Create React App)
+- JavaScript (ES6+)
+- CSS puro
+- Git e GitHub
+
+---
+
+## 🗂️ Estrutura de Pastas
+
+src/
+├── components/
+│ ├── Sidebar.jsx
+│ ├── MovieList.jsx
+│ ├── SearchBar.jsx
+│ └── AddMovie.jsx
+├── data/
+│ └── movies.js
+├── styles.css
+└── App.jsx
+
+## 🧠 Processo de Desenvolvimento
+Estrutura inicial com Vite + componentes reutilizáveis
+
+Criado movies.js com filmes e categorias fixas
+
+Implementado sidebar com filtro por categoria
+
+Adicionada barra de busca por título
+
+Criado formulário de adição de filmes
+
+Implementado botão de reset
+
+Estilização simples e funcional com CSS
+
+Commits realizados com mensagens claras em cada etapa
+
+## 🚀 Extras Implementados
+Botão de reset para restaurar a lista original
+
+Adição dinâmica de filmes via formulário
+
+## 📦 Deploy
+A aplicação está publicada em:
+
+[Vercel](https://movie-73rprd83d-waallbatistas-projects.vercel.app)
+
+## 🤝 Autor
+Feito com dedicação por Wallace Batista
+[GitHub](https://github.com/waallbatista)
