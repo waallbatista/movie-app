@@ -28,14 +28,31 @@ Aplicação web criada como parte de um teste técnico para vaga de Desenvolvedo
 
 src/
 ├── components/
-│ ├── Sidebar.jsx
-│ ├── MovieList.jsx
-│ ├── SearchBar.jsx
-│ └── AddMovie.jsx
+│   ├── Sidebar.jsx
+│   ├── MovieList.jsx
+│   ├── SearchBar.jsx
+│   └── AddMovie.jsx
 ├── data/
-│ └── movies.js
+│   └── movies.js
 ├── styles.css
 └── App.jsx
+
+## ⚙️ Como Rodar o Projeto Localmente
+  1.Clone o repositório:
+  
+    git clone https://github.com/seu-usuario/movie-app.git
+    cd movie-app
+    
+  2.Instale as dependências:
+  
+    npm install
+    Inicie o servidor local:
+
+  3.Inicie o servidor local:
+  
+    npm run dev
+    
+  Acesse: http://localhost:5173
 
 ## 🧠 Processo de Desenvolvimento
 Estrutura inicial com Vite + componentes reutilizáveis
