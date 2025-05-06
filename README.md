@@ -46,13 +46,10 @@ Aplicação web criada como parte de um teste técnico para vaga de Desenvolvedo
   2.Instale as dependências:
   
     npm install
-    Inicie o servidor local:
 
   3.Inicie o servidor local:
   
     npm run dev
-    
-  Acesse: http://localhost:5173
 
 ## 🧠 Processo de Desenvolvimento
 Estrutura inicial com Vite + componentes reutilizáveis
