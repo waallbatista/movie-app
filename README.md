@@ -26,16 +26,16 @@ Aplicação web criada como parte de um teste técnico para vaga de Desenvolvedo
 
 ## 🗂️ Estrutura de Pastas
 
-src/
-├── components/
-│   ├── Sidebar.jsx
-│   ├── MovieList.jsx
-│   ├── SearchBar.jsx
-│   └── AddMovie.jsx
-├── data/
-│   └── movies.js
-├── styles.css
-└── App.jsx
+    src/
+    ├── components/
+    │   ├── Sidebar.jsx
+    │   ├── MovieList.jsx
+    │   ├── SearchBar.jsx
+    │   └── AddMovie.jsx
+    ├── data/
+    │   └── movies.js
+    ├── styles.css
+    └── App.jsx
 
 ## ⚙️ Como Rodar o Projeto Localmente
   1.Clone o repositório:
