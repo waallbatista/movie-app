@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .app {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    background: #222;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar button {
+    margin: 5px 0;
+    padding: 10px;
+    background: none;
+    border: none;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .sidebar button.active {
+    background: #555;
+    font-weight: bold;
+  }
+  
+  .main {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .search-bar {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .movie-card {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 150px;
+  }
+  
+  .add-movie {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .reset-button {
+    margin: 10px 0;
+    padding: 8px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .reset-button:hover {
+    background-color: #d32f2f;
+  }
+  
